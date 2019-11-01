@@ -122,8 +122,31 @@ namespace AnimalShelter.Models
                     Age = 20,
                     KennelNumber = "2F",
                     Description = "So tiny, you can barely see her. Blubbles Just likes doing her own thing."
+                },
+                new ShelterList
+                {
+                    ShelterListId = 10,
+                    Name = "Tom",
+                    PhotoPath = "wwwroot/uploads/Tom.jpg",
+                    AnimalType = "Cougar",
+                    Breed = "Cougar",
+                    Gender = "Female",
+                    Age = 7,
+                    KennelNumber = "7V",
+                    Description = "We aren't sure how we got Tom, but she seems friendly."
+                },
+                new ShelterList
+                {
+                    ShelterListId = 11,
+                    Name = "Stompers",
+                    PhotoPath = "wwwroot/uploads/Stompers.jpg",
+                    AnimalType = "Elephant",
+                    Breed = "Borneo Elephant",
+                    Gender = "Male",
+                    Age = 15,
+                    KennelNumber = "5D",
+                    Description = "Borneo is smaller than he should be. He acts like a puppy dog, even loves playing catch."
                 }
-                
             );
         }
     }
