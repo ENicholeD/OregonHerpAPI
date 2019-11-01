@@ -20,7 +20,7 @@ namespace AnimalShelter.Models
         [StringLength(30)]
         public string Gender {get; set;}
         [Required]
-        public int Age {get; set;}
+        public string Age {get; set;}
         [Required]
         [StringLength(15)]
         public string KennelNumber {get; set;}

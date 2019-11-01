@@ -20,7 +20,7 @@ namespace AnimalShelter.Models
                     AnimalType = "Alpaca",
                     Breed = "Suri",
                     Gender = "Female",
-                    Age = 2,
+                    Age = "Young",
                     KennelNumber = "7E",
                     Description = "Carla is sassy and loves big Open spaces. She is the leader of the al-Pack-as."
                 },
@@ -33,7 +33,7 @@ namespace AnimalShelter.Models
                     AnimalType = "Caiman",
                     Breed = "Cuvier's dwarf",
                     Gender = "Male",
-                    Age = 8,
+                    Age = "Teen",
                     KennelNumber = "1R",
                     Description = "He may be small, but Ruddy is feisty. Watch your fingers!"
                 },
@@ -46,7 +46,7 @@ namespace AnimalShelter.Models
                     PhotoPath = "wwwroot/uploads/Sticky.jpg",
                     Breed = "Tomato",
                     Gender = "Male",
-                    Age = 1,
+                    Age = "Young",
                     KennelNumber = "5A",
                     Description = "He's a  frog. He does froggy things. He loves the hand taxi. Will do a heckin' monch before trusting hand taxi."
                 },
@@ -58,7 +58,7 @@ namespace AnimalShelter.Models
                     AnimalType = "Dog",
                     Breed = "Chinese Crested",
                     Gender = "Female",
-                    Age = 1,
+                    Age = "Young",
                     KennelNumber = "3D",
                     Description = "Toad is a fashionista. If she isn't wearing a cute outfit, she shakes uncontrollably from her naked rage."
                 },
@@ -71,7 +71,7 @@ namespace AnimalShelter.Models
                     AnimalType = "Cat",
                     Breed = "Ragdoll",
                     Gender = "Female",
-                    Age = 3,
+                    Age = "Teen",
                     KennelNumber = "3B",
                     Description = "Raggedy Anne is a very relaxed. Her favorite pastime is sleeping and getting attention."
                 },
@@ -83,7 +83,7 @@ namespace AnimalShelter.Models
                     AnimalType = "Bird",
                     Breed = "Red Factor Canary",
                     Gender = "Male",
-                    Age = 1,
+                    Age = "Young",
                     KennelNumber = "1B",
                     Description = "Loves heavy metal music. You must give him the seed or he will fight you."
                 },
@@ -95,7 +95,7 @@ namespace AnimalShelter.Models
                     AnimalType = "Monkey",
                     Breed = "Emperor Tamerin",
                     Gender = "Male",
-                    Age = 12,
+                    Age = "Adult",
                     KennelNumber = "7G",
                     Description = "King Arthor believes He is king of all animals. Will steal your heart and your Acai fruit."
                 },
@@ -107,7 +107,7 @@ namespace AnimalShelter.Models
                     AnimalType = "Crab",
                     Breed = "Chesapeake blue Crab",
                     Gender = "Male",
-                    Age = 5,
+                    Age = "Teen",
                     KennelNumber = "3F",
                     Description = "Always Angry."
                 },
@@ -119,7 +119,7 @@ namespace AnimalShelter.Models
                     AnimalType = "Fish",
                     Breed = "Paedocypris progenetica",
                     Gender = "Female",
-                    Age = 20,
+                    Age = "Young",
                     KennelNumber = "2F",
                     Description = "So tiny, you can barely see her. Blubbles Just likes doing her own thing."
                 },
@@ -131,7 +131,7 @@ namespace AnimalShelter.Models
                     AnimalType = "Cougar",
                     Breed = "Cougar",
                     Gender = "Female",
-                    Age = 7,
+                    Age = "Adult",
                     KennelNumber = "7V",
                     Description = "We aren't sure how we got Tom, but she seems friendly."
                 },
@@ -143,7 +143,7 @@ namespace AnimalShelter.Models
                     AnimalType = "Elephant",
                     Breed = "Borneo Elephant",
                     Gender = "Male",
-                    Age = 15,
+                    Age = "Adult",
                     KennelNumber = "5D",
                     Description = "Borneo is smaller than he should be. He acts like a puppy dog, even loves playing catch."
                 },
@@ -155,7 +155,7 @@ namespace AnimalShelter.Models
                     AnimalType = "Dragon",
                     Breed = "Luck Dragon",
                     Gender = "Male",
-                    Age = 175,
+                    Age = "???",
                     KennelNumber = "7H",
                     Description = "You mean... We have THE Falcore?! Falcore from the Never Ending Story?!"
                 },
@@ -167,7 +167,7 @@ namespace AnimalShelter.Models
                     AnimalType = "Rock",
                     Breed = "Rock",
                     Gender = "None",
-                    Age = 10453,
+                    Age = "Ancient",
                     KennelNumber = "1A",
                     Description = "Um... it's... a rock."
                 },
@@ -179,7 +179,7 @@ namespace AnimalShelter.Models
                     AnimalType = "Plant",
                     Breed = "Lithop",
                     Gender = "None",
-                    Age = 4,                    KennelNumber = "2A",
+                    Age = "Young",                    KennelNumber = "2A",
                     Description = "The cutest little plant on planet earth! Just look at all that cuteness!"
                 },
                 new ShelterList
@@ -190,7 +190,7 @@ namespace AnimalShelter.Models
                     AnimalType = "Spider",
                     Breed = "Bold Jumper",
                     Gender = "Female",
-                    Age = 2,
+                    Age = "Elder",
                     KennelNumber = "1C",
                     Description = "Jumpy's eyes are very mesmerizing! We can't look away."
                 },
@@ -202,23 +202,34 @@ namespace AnimalShelter.Models
                     AnimalType = "Human",
                     Breed = "Nerd",
                     Gender = "Male",
-                    Age = 35,
+                    Age = "Adult",
                     KennelNumber = "Office",
                     Description = "Hey! Guys, This ain't funny! Take this down!"
                 },
                 new ShelterList
                 {
-                    ShelterListId = 13,
+                    ShelterListId = 17,
                     Name = "Mist",
                     PhotoPath = "wwwroot/uploads/Misty.jpg",
                     AnimalType = "Dog",
                     Breed = "Australian Shepherd",
                     Gender = "Female",
-                    Age = 2,
+                    Age = "Young",
                     KennelNumber = "4D",
                     Description = "Misty is Very active and very loyal. Her previous owner gaver her up because Misty didn't want to hurt the sheep."
                 },
-                
+                new ShelterList
+                {
+                    ShelterListId = 87,
+                    Name = "Xander",
+                    PhotoPath = "wwwroot/uploads/Xander.jpg",
+                    AnimalType = "Cat",
+                    Breed = "Japanese Bontail",
+                    Gender = "Male",
+                    Age = "young",
+                    KennelNumber = "3C",
+                    Description = "Xander is very vocal an loves to play. He still has his kitten energy and will need lot of play."
+                }
             );
         }
     }

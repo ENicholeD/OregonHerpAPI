@@ -20,7 +20,8 @@ namespace AnimalShelter_Api.Migrations
                     b.Property<int>("ShelterListId")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<int>("Age");
+                    b.Property<string>("Age")
+                        .IsRequired();
 
                     b.Property<string>("AnimalType")
                         .IsRequired()
@@ -57,7 +58,7 @@ namespace AnimalShelter_Api.Migrations
                         new
                         {
                             ShelterListId = 1,
-                            Age = 2,
+                            Age = "Young",
                             AnimalType = "Alpaca",
                             Breed = "Suri",
                             Description = "Carla is sassy and loves big Open spaces. She is the leader of the al-Pack-as.",
@@ -69,7 +70,7 @@ namespace AnimalShelter_Api.Migrations
                         new
                         {
                             ShelterListId = 2,
-                            Age = 8,
+                            Age = "Teen",
                             AnimalType = "Caiman",
                             Breed = "Cuvier's dwarf",
                             Description = "He may be small, but Ruddy is feisty. Watch your fingers!",
@@ -81,7 +82,7 @@ namespace AnimalShelter_Api.Migrations
                         new
                         {
                             ShelterListId = 3,
-                            Age = 1,
+                            Age = "Young",
                             AnimalType = "Frog",
                             Breed = "Tomato",
                             Description = "He's a  frog. He does froggy things. He loves the hand taxi. Will do a heckin' monch before trusting hand taxi.",
@@ -93,7 +94,7 @@ namespace AnimalShelter_Api.Migrations
                         new
                         {
                             ShelterListId = 4,
-                            Age = 1,
+                            Age = "Young",
                             AnimalType = "Dog",
                             Breed = "Chinese Crested",
                             Description = "Toad is a fashionista. If she isn't wearing a cute outfit, she shakes uncontrollably from her naked rage.",
@@ -105,7 +106,7 @@ namespace AnimalShelter_Api.Migrations
                         new
                         {
                             ShelterListId = 5,
-                            Age = 3,
+                            Age = "Teen",
                             AnimalType = "Cat",
                             Breed = "Ragdoll",
                             Description = "Raggedy Anne is a very relaxed. Her favorite pastime is sleeping and getting attention.",
@@ -117,7 +118,7 @@ namespace AnimalShelter_Api.Migrations
                         new
                         {
                             ShelterListId = 6,
-                            Age = 1,
+                            Age = "Young",
                             AnimalType = "Bird",
                             Breed = "Red Factor Canary",
                             Description = "Loves heavy metal music. You must give him the seed or he will fight you.",
@@ -129,7 +130,7 @@ namespace AnimalShelter_Api.Migrations
                         new
                         {
                             ShelterListId = 7,
-                            Age = 12,
+                            Age = "Adult",
                             AnimalType = "Monkey",
                             Breed = "Emperor Tamerin",
                             Description = "King Arthor believes He is king of all animals. Will steal your heart and your Acai fruit.",
@@ -141,7 +142,7 @@ namespace AnimalShelter_Api.Migrations
                         new
                         {
                             ShelterListId = 8,
-                            Age = 5,
+                            Age = "Teen",
                             AnimalType = "Crab",
                             Breed = "Chesapeake blue Crab",
                             Description = "Always Angry.",
@@ -153,7 +154,7 @@ namespace AnimalShelter_Api.Migrations
                         new
                         {
                             ShelterListId = 9,
-                            Age = 20,
+                            Age = "Young",
                             AnimalType = "Fish",
                             Breed = "Paedocypris progenetica",
                             Description = "So tiny, you can barely see her. Blubbles Just likes doing her own thing.",
@@ -165,7 +166,7 @@ namespace AnimalShelter_Api.Migrations
                         new
                         {
                             ShelterListId = 10,
-                            Age = 7,
+                            Age = "Adult",
                             AnimalType = "Cougar",
                             Breed = "Cougar",
                             Description = "We aren't sure how we got Tom, but she seems friendly.",
@@ -177,7 +178,7 @@ namespace AnimalShelter_Api.Migrations
                         new
                         {
                             ShelterListId = 11,
-                            Age = 15,
+                            Age = "Adult",
                             AnimalType = "Elephant",
                             Breed = "Borneo Elephant",
                             Description = "Borneo is smaller than he should be. He acts like a puppy dog, even loves playing catch.",
@@ -189,7 +190,7 @@ namespace AnimalShelter_Api.Migrations
                         new
                         {
                             ShelterListId = 12,
-                            Age = 175,
+                            Age = "???",
                             AnimalType = "Dragon",
                             Breed = "Luck Dragon",
                             Description = "You mean... We have THE Falcore?! Falcore from the Never Ending Story?!",
@@ -197,6 +198,78 @@ namespace AnimalShelter_Api.Migrations
                             KennelNumber = "7H",
                             Name = "Falcore",
                             PhotoPath = "wwwroot/uploads/Flacore.jpg"
+                        },
+                        new
+                        {
+                            ShelterListId = 13,
+                            Age = "Ancient",
+                            AnimalType = "Rock",
+                            Breed = "Rock",
+                            Description = "Um... it's... a rock.",
+                            Gender = "None",
+                            KennelNumber = "1A",
+                            Name = "Rockita",
+                            PhotoPath = "wwwroot/uploads/Rockita.jpg"
+                        },
+                        new
+                        {
+                            ShelterListId = 14,
+                            Age = "Young",
+                            AnimalType = "Plant",
+                            Breed = "Lithop",
+                            Description = "The cutest little plant on planet earth! Just look at all that cuteness!",
+                            Gender = "None",
+                            KennelNumber = "2A",
+                            Name = "Cutie",
+                            PhotoPath = "wwwroot/uploads/Cutie.jpg"
+                        },
+                        new
+                        {
+                            ShelterListId = 15,
+                            Age = "Elder",
+                            AnimalType = "Spider",
+                            Breed = "Bold Jumper",
+                            Description = "Jumpy's eyes are very mesmerizing! We can't look away.",
+                            Gender = "Female",
+                            KennelNumber = "1C",
+                            Name = "Jumpy",
+                            PhotoPath = "wwwroot/uploads/Jumpy.jpg"
+                        },
+                        new
+                        {
+                            ShelterListId = 16,
+                            Age = "Adult",
+                            AnimalType = "Human",
+                            Breed = "Nerd",
+                            Description = "Hey! Guys, This ain't funny! Take this down!",
+                            Gender = "Male",
+                            KennelNumber = "Office",
+                            Name = "Brad Person",
+                            PhotoPath = "wwwroot/uploads/Brad_Person.jpg"
+                        },
+                        new
+                        {
+                            ShelterListId = 17,
+                            Age = "Young",
+                            AnimalType = "Dog",
+                            Breed = "Australian Shepherd",
+                            Description = "Misty is Very active and very loyal. Her previous owner gaver her up because Misty didn't want to hurt the sheep.",
+                            Gender = "Female",
+                            KennelNumber = "4D",
+                            Name = "Mist",
+                            PhotoPath = "wwwroot/uploads/Misty.jpg"
+                        },
+                        new
+                        {
+                            ShelterListId = 87,
+                            Age = "young",
+                            AnimalType = "Cat",
+                            Breed = "Japanese Bontail",
+                            Description = "Xander is very vocal an loves to play. He still has his kitten energy and will need lot of play.",
+                            Gender = "Male",
+                            KennelNumber = "3C",
+                            Name = "Xander",
+                            PhotoPath = "wwwroot/uploads/Xander.jpg"
                         });
                 });
 #pragma warning restore 612, 618
