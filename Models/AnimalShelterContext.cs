@@ -220,7 +220,7 @@ namespace AnimalShelter.Models
                 },
                 new ShelterList
                 {
-                    ShelterListId = 87,
+                    ShelterListId = 18,
                     Name = "Xander",
                     PhotoPath = "wwwroot/uploads/Xander.jpg",
                     AnimalType = "Cat",
@@ -229,6 +229,78 @@ namespace AnimalShelter.Models
                     Age = "young",
                     KennelNumber = "3C",
                     Description = "Xander is very vocal an loves to play. He still has his kitten energy and will need lot of play."
+                },
+                new ShelterList
+                {
+                    ShelterListId = 19,
+                    Name = "Chubs",
+                    PhotoPath = "wwwroot/uploads/Chubs.jpg",
+                    AnimalType = "Dog",
+                    Breed = "Golden Retreiver",
+                    Gender = "Male",
+                    Age = "Puppy",
+                    KennelNumber = "8D",
+                    Description = "The bestest boy in the whole shelter."
+                },
+                new ShelterList
+                {
+                    ShelterListId = 20,
+                    Name = "Diddy",
+                    PhotoPath = "wwwroot/uploads/.jpg",
+                    AnimalType = "Hamster",
+                    Breed = "Black Bear Hamster",
+                    Gender = "Male",
+                    Age = "young",
+                    KennelNumber = "1H",
+                    Description = "Very Active, but not very nice to other hamsters."
+                },
+                new ShelterList
+                {
+                    ShelterListId = 21,
+                    Name = "Dennis Hopper",
+                    PhotoPath = "wwwroot/uploads/Hopper.jpg",
+                    AnimalType = "Rabbit",
+                    Breed = "Mini Satin Rabbit",
+                    Gender = "Male",
+                    Age = "Teen",
+                    KennelNumber = "2A",
+                    Description = "Just like the actor but better. He loves the movie Blue Velvet."
+                },
+                new ShelterList
+                {
+                    ShelterListId = 22,
+                    Name = "Chimken",
+                    PhotoPath = "wwwroot/uploads/Chimken.jpg",
+                    AnimalType = "Chicken",
+                    Breed = "Chicken Nugget",
+                    Gender = "None",
+                    Age = "Elder",
+                    KennelNumber = "5A",
+                    Description = "He was as good in life as he is now."
+                },
+                new ShelterList
+                {
+                    ShelterListId = 23,
+                    Name = "Balk",
+                    PhotoPath = "wwwroot/uploads/Balk.jpg",
+                    AnimalType = "Chicken",
+                    Breed = "Kadaknath",
+                    Gender = "Male",
+                    Age = "Adult",
+                    KennelNumber = "4G",
+                    Description = "Chimken's younger brother. He's really into Bauhaus."
+                },
+                new ShelterList
+                {
+                    ShelterListId = 24,
+                    Name = "Woof",
+                    PhotoPath = "wwwroot/uploads/Woof.jpg",
+                    AnimalType = "Wolf",
+                    Breed = "Gray Wolf",
+                    Gender = "Male",
+                    Age = "Puppy",
+                    KennelNumber = "7I",
+                    Description = "Baby wolf from Alaska."
                 }
             );
         }
