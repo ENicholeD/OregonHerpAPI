@@ -15,6 +15,9 @@ namespace AnimalShelter.Models
         [StringLength(30)]
         public string Breed {get; set;}
         [Required]
+        [StringLength(30)]
+        public string Gender {get; set;}
+        [Required]
         public int Age {get; set;}
         [Required]
         [StringLength(15)]
@@ -22,7 +25,5 @@ namespace AnimalShelter.Models
         [Required]
         [StringLength(500)]
         public string Description {get; set;}
-        
-
     }
 }
