@@ -26,14 +26,16 @@ no known bugs at this time
 
 ## Support and contact details
 
-_If you run into issues, contact Erin Deuel at end.gaia@gmail.com_
+If you run into issues, contact Erin Deuel at end.gaia@gmail.com
 
 ## Technologies Used
 
-_Javascript, jQuery, html, css and webpack._
+* Visual Sudio Code
+* C#
+* SqLite
 
 ### License
 
 *MIT License*
 
-Copyright (c) 2019 **_Erin Deuel, Rachael Bouissey, Mike McShane and Micah Zaayer_**
+Copyright (c) 2019 **Erin Deuel**
