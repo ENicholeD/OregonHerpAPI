@@ -56,31 +56,31 @@ namespace AnimalShelter.Controllers
     
 
     [HttpPost]
-    public void Post([FromBody] TripAdvisor tripAdvisor)
+    public void Post([FromBody] ShelterList shelterList)
     {
-      _db.TripAdvisor.Add(tripAdvisor);
+      _db.ShelterList.Add(shelterList);
       _db.SaveChanges();
     }
 
     [HttpGet("{id}")]
-    public ActionResult<TripAdvisor> Get(int id)
+    public ActionResult<ShelterList> Get(int id)
     {
-        return _db.TripAdvisor.FirstOrDefault(entry => entry.TripAdvisorId == id);
+        return _db.ShelterList.FirstOrDefault(entry => entry.ShelterListId == id);
     }
 
     [HttpPut("{id}")]
-    public void Put(int id, [FromBody] TripAdvisor tripAdvisor)
+    public void Put(int id, [FromBody] ShelterList shelterList)
     {
-        tripAdvisor.TripAdvisorId = id;
-        _db.Entry(tripAdvisor).State = EntityState.Modified;
+        shelterList.ShelterListId = id;
+        _db.Entry(shelterList).State = EntityState.Modified;
         _db.SaveChanges();
     }
 
     [HttpDelete("{id}")]
     public void Delete(int id)
     {
-      var tripToDelete = _db.TripAdvisor.FirstOrDefault(entry => entry.TripAdvisorId == id);
-      _db.TripAdvisor.Remove(tripToDelete);
+      var animaltoDelete = _db.ShelterList.FirstOrDefault(entry => entry.ShelterListId == id);
+      _db.ShelterList.Remove(animaltoDelete);
       _db.SaveChanges();
     }
 

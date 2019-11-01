@@ -14,7 +14,7 @@ namespace AnimalShelter.Models
             builder.Entity<ShelterList>().HasData(
                 new ShelterList
                 {
-                    AnimalId = 1,
+                    ShelterListId = 1,
                     Name = "Carla",
                     AnimalType = "Alpaca",
                     Breed = "Suri",
@@ -26,7 +26,7 @@ namespace AnimalShelter.Models
 
                 new ShelterList
                 {
-                    AnimalId = 2,
+                    ShelterListId = 2,
                     Name = "Ruddy",
                     AnimalType = "Caiman",
                     Breed = "Cuvier's dwarf",
@@ -38,7 +38,7 @@ namespace AnimalShelter.Models
                 
                 new ShelterList
                 {
-                    AnimalId = 3,
+                    ShelterListId = 3,
                     Name = "Sticky",
                     AnimalType = "Frog",
                     Breed = "Tomato",
