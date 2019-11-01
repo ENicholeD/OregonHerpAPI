@@ -46,7 +46,18 @@ namespace AnimalShelter.Models
                     Age = 1,
                     KennelNumber = "5A",
                     Description = "He's a  frog. He does froggy things. He loves the hand taxi. Will do a heckin' monch before trusting hand taxi."
-                }
+                },
+                new ShelterList
+                {
+                    ShelterListId = 4,
+                    Name = "Toad",
+                    AnimalType = "Dog",
+                    Breed = "Chinese Crested",
+                    Gender = "Female",
+                    Age = 1,
+                    KennelNumber = "3D",
+                    Description = "Toad is a fashionista. If she isn't wearing a cute outfit, she shakes uncontrollably from her naked rage."
+                },
             );
         }
     }

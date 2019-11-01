@@ -15,7 +15,7 @@ An API that has a list of animals within an Animal shelter
 * Type "Dotnet build" into your terminal
 * run the API on a server by typing "Dotnet watch run" into your terminal
 * open up Postman
-* enter "https://localhost/" into the GET request bar
+* enter "http://localhost:5000/api/shelterlist" into the GET request bar
 * Look around in the API
 * close Postman
 * end the server with ctrl + c
