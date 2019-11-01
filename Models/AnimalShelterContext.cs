@@ -146,7 +146,79 @@ namespace AnimalShelter.Models
                     Age = 15,
                     KennelNumber = "5D",
                     Description = "Borneo is smaller than he should be. He acts like a puppy dog, even loves playing catch."
-                }
+                },
+                new ShelterList
+                {
+                    ShelterListId = 12,
+                    Name = "Falcore",
+                    PhotoPath = "wwwroot/uploads/Flacore.jpg",
+                    AnimalType = "Dragon",
+                    Breed = "Luck Dragon",
+                    Gender = "Male",
+                    Age = 175,
+                    KennelNumber = "7H",
+                    Description = "You mean... We have THE Falcore?! Falcore from the Never Ending Story?!"
+                },
+                new ShelterList
+                {
+                    ShelterListId = 13,
+                    Name = "Rockita",
+                    PhotoPath = "wwwroot/uploads/Rockita.jpg",
+                    AnimalType = "Rock",
+                    Breed = "Rock",
+                    Gender = "None",
+                    Age = 10453,
+                    KennelNumber = "1A",
+                    Description = "Um... it's... a rock."
+                },
+                new ShelterList
+                {
+                    ShelterListId = 14,
+                    Name = "Cutie",
+                    PhotoPath = "wwwroot/uploads/Cutie.jpg",
+                    AnimalType = "Plant",
+                    Breed = "Lithop",
+                    Gender = "None",
+                    Age = 4,                    KennelNumber = "2A",
+                    Description = "The cutest little plant on planet earth! Just look at all that cuteness!"
+                },
+                new ShelterList
+                {
+                    ShelterListId = 15,
+                    Name = "Jumpy",
+                    PhotoPath = "wwwroot/uploads/Jumpy.jpg",
+                    AnimalType = "Spider",
+                    Breed = "Bold Jumper",
+                    Gender = "Female",
+                    Age = 2,
+                    KennelNumber = "1C",
+                    Description = "Jumpy's eyes are very mesmerizing! We can't look away."
+                },
+                new ShelterList
+                {
+                    ShelterListId = 16,
+                    Name = "Brad Person",
+                    PhotoPath = "wwwroot/uploads/Brad_Person.jpg",
+                    AnimalType = "Human",
+                    Breed = "Nerd",
+                    Gender = "Male",
+                    Age = 35,
+                    KennelNumber = "Office",
+                    Description = "Hey! Guys, This ain't funny! Take this down!"
+                },
+                new ShelterList
+                {
+                    ShelterListId = 13,
+                    Name = "Mist",
+                    PhotoPath = "wwwroot/uploads/Misty.jpg",
+                    AnimalType = "Dog",
+                    Breed = "Australian Shepherd",
+                    Gender = "Female",
+                    Age = 2,
+                    KennelNumber = "4D",
+                    Description = "Misty is Very active and very loyal. Her previous owner gaver her up because Misty didn't want to hurt the sheep."
+                },
+                
             );
         }
     }
