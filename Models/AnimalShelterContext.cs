@@ -16,6 +16,7 @@ namespace AnimalShelter.Models
                 {
                     ShelterListId = 1,
                     Name = "Carla",
+                    PhotoPath = "wwwroot/uploads/Carla.jpg",
                     AnimalType = "Alpaca",
                     Breed = "Suri",
                     Gender = "Female",
@@ -28,6 +29,7 @@ namespace AnimalShelter.Models
                 {
                     ShelterListId = 2,
                     Name = "Ruddy",
+                    PhotoPath = "wwwroot/uploads/Ruddy.jpg",
                     AnimalType = "Caiman",
                     Breed = "Cuvier's dwarf",
                     Gender = "Male",
@@ -41,6 +43,7 @@ namespace AnimalShelter.Models
                     ShelterListId = 3,
                     Name = "Sticky",
                     AnimalType = "Frog",
+                    PhotoPath = "wwwroot/uploads/Sticky.jpg",
                     Breed = "Tomato",
                     Gender = "Male",
                     Age = 1,
@@ -51,13 +54,14 @@ namespace AnimalShelter.Models
                 {
                     ShelterListId = 4,
                     Name = "Toad",
+                    PhotoPath = "wwwroot/uploads/Toad.jpg",
                     AnimalType = "Dog",
                     Breed = "Chinese Crested",
                     Gender = "Female",
                     Age = 1,
                     KennelNumber = "3D",
                     Description = "Toad is a fashionista. If she isn't wearing a cute outfit, she shakes uncontrollably from her naked rage."
-                },
+                }
             );
         }
     }
