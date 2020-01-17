@@ -5,12 +5,12 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using AnimalShelter.Models;
+using OregonHerp.Models;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
 
-namespace AnimalShelter_Api
+namespace OregonHerp_Api
 {
     public class Startup
     {
@@ -31,17 +31,17 @@ namespace AnimalShelter_Api
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-            services.AddDbContext<AnimalShelterContext>(options =>
+            services.AddDbContext<OregonHerpContext>(options =>
                 options.UseSqlite(
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDefaultIdentity<IdentityUser>()
                 .AddDefaultUI(UIFramework.Bootstrap4)
-                .AddEntityFrameworkStores<AnimalShelterContext>();
+                .AddEntityFrameworkStores<OregonHerpContext>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "AnimalShelter_API", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "OregonHerp_API", Version = "v1" });
             });
         }
 

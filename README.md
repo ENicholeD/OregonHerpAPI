@@ -10,7 +10,7 @@ An API that has a list of animals within an Animal shelter
 
 ## Setup/Installation Requirements
 
-* Clone from GitHub using the "git clone https://github.com/MagpieMortician/AnimalShelter_API.git" in your terminal
+* Clone from GitHub using the "git clone https://github.com/MagpieMortician/OregonHerp_API.git" in your terminal
 * open the project in an editor
 * Type "Dotnet build" into your terminal
 * run the API on a server by typing "Dotnet watch run" into your terminal

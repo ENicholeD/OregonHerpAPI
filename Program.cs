@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Hosting;
 
 
-namespace AnimalShelter_Api
+namespace OregonHerp_Api
 {
     public class Program
     {
