@@ -18,7 +18,7 @@ namespace OregonHerp.Controllers
     }
 
     [HttpGet]
-    public ActionResult<IEnumerable<HerpList>> Get(string name, string animalType, string breed, string gender, string age, string kennelNumber, string description)
+    public ActionResult<IEnumerable<HerpList>> Get(string scientificName, string commonName, string classification, string photoPath, string description, string habitat, string breeding, string diet, string lifespan, string size, string conservationStatus, string predators, bool invasiveStatus)
     {
       var query = _db.HerpList.AsQueryable(); 
       

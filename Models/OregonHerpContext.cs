@@ -16,8 +16,8 @@ namespace OregonHerp.Models
                 new HerpList
                 {
                     HerpListId = 1,
-                     ScientificName = "Ambystoma tigrinum",
-                     CommonName ="Tiger Salamander",
+                    ScientificName = "Ambystoma tigrinum",
+                    CommonName ="Tiger Salamander",
                     Classification = "Amphibian",
                     PhotoPath = "../wwwroot/uploads/tigerSalamander.jpg",
                     Description = "Brown or black bodies with either brownish-yellow or greenish yellow spots on their heads, bodies, and tails.",
@@ -53,7 +53,7 @@ namespace OregonHerp.Models
                 // Long-toed Salamander
                 new HerpList
                 {
-                    HerpListId = 4,
+                    HerpListId = 3,
                     ScientificName = "Ambystoma ",
                     CommonName = "Long-Toed Salamander",
                     Classification = "Amphibian macrodactylum",
