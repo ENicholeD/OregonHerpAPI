@@ -6,6 +6,7 @@ namespace OregonHerp.Models
     {
         [Required]
         public int HerpListId {get; set;}
+        
         [Required]
         public string ScientificName {get; set;}
         public string CommonName {get; set;}
